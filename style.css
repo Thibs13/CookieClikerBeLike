@@ -1,5 +1,7 @@
 html{
     background-color: rgb(153, 200, 226);
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     margin-top: 17%;
@@ -7,8 +9,10 @@ header{
     text-align: center;
     font-weight: 400;
     font-size:smaller;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+* {
+    user-select: none;
+}  
 main{
     width: 100%;
     display: flex;
@@ -44,4 +48,32 @@ h3{
 #nbreCookies{
     font-weight: 600;
     font-size: 15px;
+}
+.inv{
+    visibility: hidden;
+    position: absolute;
+}
+.bloc-settings{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(238, 235, 235);
+    border-radius: 16px;
+    border: 1px solid rgb(38, 126, 173);
+}
+.bloc{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 5%;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(185, 185, 185);
+    background-color: rgb(224, 224, 224);
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.illustration>img{
+    width: 50px;
+    height: 50px;
 }
