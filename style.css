@@ -38,3 +38,10 @@ footer{
     height: 210px;
     transition: 0.2s;
 }
+h3{
+    font-size: 18px;
+}
+#nbreCookies{
+    font-weight: 600;
+    font-size: 15px;
+}
