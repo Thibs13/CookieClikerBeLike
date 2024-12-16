@@ -31,3 +31,6 @@ btnChef.addEventListener("click",()=>{
     nbreCookies.innerHTML =`${compteurCookie}`;
   }
 })
+document.addEventListener('dblclick', function (e) {
+  e.preventDefault();
+});
