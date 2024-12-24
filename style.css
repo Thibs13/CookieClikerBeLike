@@ -4,11 +4,16 @@ html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    margin-top: 17%;
-    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+    width: 95%;
     text-align: center;
     font-weight: 400;
     font-size:smaller;
+    border: 1px solid rgb(88, 167, 209);
+    border-radius: 32px;
+    color: rgb(13, 49, 68);
+    background-color: rgb(159, 218, 249);
 }
 * {
     user-select: none;
@@ -19,6 +24,7 @@ main{
     height: 480px;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 main img{
     height: 240px;
@@ -27,6 +33,7 @@ main img{
 }
 footer{
     width: 100%;
+    margin: auto;
 }
 .list-button{
     width: 40px;
@@ -41,13 +48,6 @@ footer{
     width: 210px;
     height: 210px;
     transition: 0.2s;
-}
-h3{
-    font-size: 18px;
-}
-#nbreCookies{
-    font-weight: 600;
-    font-size: 15px;
 }
 .inv{
     visibility: hidden;
